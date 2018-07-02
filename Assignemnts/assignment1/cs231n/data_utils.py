@@ -40,7 +40,7 @@ def load_CIFAR10(ROOT):
   return Xtr, Ytr, Xte, Yte
 
 
-def get_CIFAR10_data(num_training=49000, num_validation=1000, num_test=1000,
+def get_CIFAR10_data(num_training=29000, num_validation=1000, num_test=1000,
                      subtract_mean=True):
     """
     Load the CIFAR-10 dataset from disk and perform preprocessing to prepare
